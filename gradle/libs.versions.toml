@@ -1,0 +1,45 @@
+[versions]
+accompanistSystemuicontroller = "0.27.1"
+agp = "8.7.3"
+koinCore = "3.5.0"
+kotlin = "2.0.0"
+devtoolsKSP = "2.0.10-1.0.24"
+compose = "1.5.4"
+compose-material3 = "1.1.2"
+androidx-activityCompose = "1.8.0"
+navigationCompose = "2.8.3"
+okhttp = "4.11.0"
+retrofit2 = "2.11.0"
+retrofitConverter = "2.11.0"
+interceptor = "4.10.0"
+volley = "1.2.1"
+coilCompose = "2.4.0"
+
+[libraries]
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
+converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofit2" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinCore" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinCore" }
+koin-core-coroutines = { module = "io.insert-koin:koin-core-coroutines", version.ref = "koinCore" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+loggingInterceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "interceptor" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+retrofit2 = {module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2"}
+retrofitConverter = {module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofitConverter"}
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-devtools-ksp = {id = "com.google.devtools.ksp", version.ref = "devtoolsKSP" }

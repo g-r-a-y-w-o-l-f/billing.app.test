@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+
+    <string name="section_bottom_bar_settings_name">Settings</string>
+    <string name="section_bottom_bar_debit_name">Debit cards</string>
+    <string name="section_add_name">Send funds</string>
+    <string name="section_bottom_bar_statement_name">Statement</string>
+    <string name="section_bottom_bar_dashboard_name">Dashboard</string>
+    <string name="section_screen_add_question">How much do you want to send?</string>
+</resources>
